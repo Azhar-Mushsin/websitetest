@@ -4,26 +4,6 @@
             <title>v.je server is running</title>
             <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300' rel='stylesheet' type='text/css'>
             <link rel="stylesheet" href="styles2.css" />
-
-            <!-- Load the <model-viewer> library from Google -->
-  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-  <style>
-    body {
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-color: #222;
-    }
-    model-viewer {
-      width: 80%;
-      height: 80%;
-      background-color: #fff;
-      border-radius: 8px;
-    }
-  </style>
-
         </head>
 <body>
 
@@ -73,28 +53,12 @@
 
     <tr>
         <td>
-            <img class="item" src="ghost.JPG" ><a href="oats.glb" rel="ar">
+            <img class="item" src="ghost.JPG" ><a href="oats.usdz" rel="ar">
             <img src="ArLogo.jpg" width="40" height="40">
         </a> 
         </td>
         <td><h4>Pizza </h4><p>Overnight Oats</p></td>
        
-    </tr>
-
-    <tr>
-
-        <!-- Replace 'model.glb' with your GLTF/GLB file path -->
-  <model-viewer
-    src="oats.glb"
-    alt="3D model"
-    camera-controls
-    auto-rotate
-    autoplay
-    shadow-intensity="1"
-    exposure="1"
-    ar
-    ar-modes="webxr scene-viewer quick-look">
-  </model-viewer>
     </tr>
 
 </table>
