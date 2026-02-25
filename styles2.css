@@ -80,3 +80,15 @@ label {
 input {
   margin-bottom: 1rem;
 }
+
+label {
+  display: block;
+  font:
+    1rem "Fira Sans",
+    sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
