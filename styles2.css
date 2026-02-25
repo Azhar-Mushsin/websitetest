@@ -71,3 +71,12 @@ div table tr td {
     overflow-wrap: break-word;
     color: tomato;
 }
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+input {
+  margin-bottom: 1rem;
+}

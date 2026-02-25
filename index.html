@@ -5,7 +5,6 @@
             <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300' rel='stylesheet' type='text/css'>
             <link rel="stylesheet" href="styles2.css" />
 
-            <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
         </head>
 <body>
 
@@ -78,6 +77,24 @@
         </td>
     <h4>oats test</h4></tr>
        
+    </tr>
+
+<!--adding capture element-->
+    <tr>
+        <td>
+            <label for="selfie">Take a picture of your food:</label>
+
+<input type="file" id="selfie" name="selfie" accept="image/*" capture="user" />
+
+<label for="picture">Take a picture using back facing camera:</label>
+
+<input
+  type="file"
+  id="picture"
+  name="picture"
+  accept="image/*"
+  capture="environment" />
+        </td>
     </tr>
 
 </table>
